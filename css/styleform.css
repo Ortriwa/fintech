@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-family: 'Playball', cursive;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.cadastro {
+    display: flex;
+    justify-content: center;
+    border-color: rgb(236, 238, 240);
+}
+
+main {
+    padding: 5%
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+    gap: 5%;
+}
+
+.d-grid {
+    margin-top: 7%;
+}
+
+.btn-bd-secondary {
+    color:var(--bs-light)
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(236, 238, 240);
+    padding: 10px 0;
+}
+
+footer ul {
+    font-size: 30px;
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 25px;
+    padding: 0px;
+}
+
+footer ul li {
+    margin-right: 10px;
+}
+
+footer ul li:last-child {
+    margin-right: 10px;
+}
+
+footer ul:hover {
+    cursor: pointer;
+}
